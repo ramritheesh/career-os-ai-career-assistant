@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Production builds and generated files
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+
+# Local uploads and temporary files
+backend/uploads/
+backend/temp/
+uploads/
+
+# Local administrative utilities: review before publishing
+backend/resetPassword.js
+backend/migrate-user-data.js
